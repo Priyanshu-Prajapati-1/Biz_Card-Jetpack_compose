@@ -262,10 +262,10 @@ class MainActivity : ComponentActivity(), SensorEventListener {
                             )
                     ) {
                         createImageProfile(110.dp) { themeMode, refresh ->
-                            if(themeMode){
+                            if (themeMode) {
                                 theme = !theme
                             }
-                            if (refresh){
+                            if (refresh) {
                                 isRefresh()
                             }
                         }
